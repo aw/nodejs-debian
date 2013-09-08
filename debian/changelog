@@ -1,3 +1,11 @@
+nodejs (0.10.18-1) UNRELEASED; urgency=low
+
+  * uv: Upgrade to v0.10.15
+  * stream: Don't crash on unset _events property (isaacs)
+  * stream: Pass 'buffer' encoding with decoded writable chunks (isaacs)
+
+ -- Alex Williams <license@unscramble.jp>  Sun, 08 Sep 2013 04:32:00 +0000
+
 nodejs (0.10.17-1) UNRELEASED; urgency=low
 
   * uv: Upgrade v0.10.14

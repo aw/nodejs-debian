@@ -7,7 +7,7 @@ Debian 7.1.
 
 ## Version
 
-Current version: 0.10.17
+Current version: 0.10.18
 
 ## Directory structure
 
@@ -17,15 +17,18 @@ Current version: 0.10.17
 
 ## How it works
 
-When you run the script to build the .deb package, it will pull down the official node.git
-repository from GitHub. It will then create a tarball of the node.js version you want to build,
-extract the files, and run the `debuild` tool to compile node.js.
+When you run the script to build the .deb package, it will pull down 
+the official node.git repository from GitHub. It will then create a tarball 
+of the node.js version you want to build, extract the files, and run the
+`debuild` tool to compile node.js.
 
-If all worked well, you'll end up with a shiny .deb file that you can reprepro to your
-APT repository, or simply rsync to your node.js servers. Build once, install plenty.
+If all worked well, you'll end up with a shiny .deb file that you can reprepro
+to your APT repository, or simply rsync to your node.js servers. Build once,
+install plenty.
 
-Once the build is complete, feel-free to remove all the junk files `debuild` left behind.
-Some of those files have interesting information though, such as the *.dsc file.
+Once the build is complete, feel-free to remove all the junk files 
+`debuild` left behind. Some of those files have interesting information 
+though, such as the *.dsc file.
 
 ## Usage
 
@@ -43,7 +46,7 @@ bin/make-nodejs-deb.sh 0.10.18
 dpkg -i nodejs_0.10.18-1_amd64.deb
 ```
 
-## Problems
+# Problems
 
 I'll try to help as much as I can, but this is just a little hack to save time,
 and i'm just offering this tool to help. Try to understand what's going on 
@@ -54,11 +57,9 @@ output of the .build file so I can see what's the error message.
 
 # TODO
 
-* The script's arguments should be checked
 * Run builds in a temporary work dir
 * Add verifications for files/dirs that already exist
 * Verify the OS (linux, debian)
-* Verify dependencies (build-essential, make, libssl, etc)
 
 # Disclaimer
 
