@@ -1,0 +1,10 @@
+nodejs (0.10.17-1) UNRELEASED; urgency=low
+
+  * uv: Upgrade v0.10.14
+  * http_parser: Do not accept PUN/GEM methods as PUT/GET (Chris Dickinson)
+  * tls: fix assertion when ssl is destroyed at read (Fedor Indutny)
+  * stream: Throw on 'error' if listeners removed (isaacs)
+  * dgram: fix assertion on bad send() arguments (Ben Noordhuis)
+  * readline: pause stdin before turning off terminal raw mode (Daniel Chatfield)
+
+ -- Alex Williams <license@unscramble.jp>  Fri, 06 Sep 2013 18:00:00 +0000

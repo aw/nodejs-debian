@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_install:
+	$(MAKE) DESTDIR=$$(pwd)/debian/nodejs prefix=/usr install
+
+override_dh_auto_configure:
+	./configure --prefix=/usr
+
+override_dh_auto_test:

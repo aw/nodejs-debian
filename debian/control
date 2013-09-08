@@ -1,0 +1,15 @@
+Source: nodejs
+Maintainer: Alex Williams <license@unscramble.jp>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 8), build-essential, libssl-dev
+
+Package: nodejs
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Unoffical Node.js debian package
+ Node.js is a platform built on Chrome's JavaScript runtime for easily 
+ building fast, scalable network applications. Node.js uses an event-driven, 
+ non-blocking I/O model that makes it lightweight and efficient, perfect for 
+ data-intensive real-time applications that run across distributed devices.
