@@ -5,6 +5,10 @@ This repository will allow you to build your own .deb package of node.js.
 Obviously, you need to run this on a debian server. It has only been tested on
 Debian 7.1.
 
+## Version
+
+Current version: 0.10.17
+
 ## Directory structure
 
 * bin/ - contains the tool to create the .deb package
