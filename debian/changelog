@@ -1,3 +1,8 @@
+nodejs (0.8.25-1) UNRELEASED; urgency=low
+
+  * npm: Upgrade to 1.2.30
+  * child_process: fix handle delivery (Ben Noordhuis)
+
 nodejs (0.10.18-1) UNRELEASED; urgency=low
 
   * uv: Upgrade to v0.10.15
