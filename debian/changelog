@@ -1,3 +1,10 @@
+nodejs (0.10.20-1) UNRELEASED; urgency=low
+
+  * tls: fix sporadic hang and partial reads (Fedor Indutny)
+    - fixes "npm ERR! cb() never called!"
+
+ -- Alex Williams <license@unscramble.jp>  Sun, 2 Oct 2013 00:01:00 +0000
+
 nodejs (0.10.19-1) UNRELEASED; urgency=low
 
   * uv: Upgrade to v0.10.17
