@@ -1,7 +1,14 @@
-nodejs (0.8.25-1) UNRELEASED; urgency=low
+nodejs (0.10.19-1) UNRELEASED; urgency=low
 
-  * npm: Upgrade to 1.2.30
-  * child_process: fix handle delivery (Ben Noordhuis)
+  * uv: Upgrade to v0.10.17
+  * npm: upgrade to 1.3.11
+  * readline: handle input starting with control chars (Eric Schrock)
+  * configure: add mips-float-abi (soft, hard) option (Andrei Sedoi)
+  * stream: objectMode transforms allow falsey values (isaacs)
+  * tls: prevent duplicate values returned from read (Nathan Rajlich)
+  * tls: NPN protocols are now local to connections (Fedor Indutny)
+
+ -- Alex Williams <license@unscramble.jp>  Sun, 2 Oct 2013 00:00:00 +0000
 
 nodejs (0.10.18-1) UNRELEASED; urgency=low
 
