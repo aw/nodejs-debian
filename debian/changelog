@@ -1,3 +1,14 @@
+nodejs (0.10.21-1) UNRELEASED; urgency=low
+
+    * uv: Upgrade to v0.10.18
+    * crypto: clear errors from verify failure (Timothy J Fontaine)
+    * dtrace: interpret two byte strings (Dave Pacheco)
+    * fs: fix fs.truncate() file content zeroing bug (Ben Noordhuis)
+    * http: provide backpressure for pipeline flood (isaacs)
+    * tls: fix premature connection termination (Ben Noordhuis)
+
+ -- Alex Williams <license@unscramble.jp>  Sun, 2 Oct 2013 00:01:00 +0000
+
 nodejs (0.10.20-1) UNRELEASED; urgency=low
 
   * tls: fix sporadic hang and partial reads (Fedor Indutny)
