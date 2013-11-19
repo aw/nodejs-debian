@@ -7,7 +7,7 @@ Debian 7.1.
 
 ## Version
 
-Current version: 0.10.21
+Current version: 0.10.22
 
 ## Directory structure
 
