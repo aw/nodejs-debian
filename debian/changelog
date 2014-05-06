@@ -1,10 +1,12 @@
-nodejs (0.10.28-1) UNRELEASED, urgency=low
+nodejs (0.10.28-1) UNRELEASED; urgency=low
 
   2014.05.01, Version 0.10.28 (Stable)
 
   * npm: upgrade to v1.4.9
 
-nodejs (0.10.27-1) UNRELEASED, urgency=low
+ -- Alex Williams <license@unscramble.jp>  Tue, 06 May 2014 00:01:00 +0000
+
+nodejs (0.10.27-1) UNRELEASED; urgency=low
 
   2014.05.01, Version 0.10.27 (Stable), cb7911
 
@@ -24,7 +26,9 @@ nodejs (0.10.27-1) UNRELEASED, urgency=low
   * url: treat \ the same as / (isaacs)
   * util: format as Error if instanceof Error (Rod Vagg)
 
-nodejs (0.10.26-1) UNRELEASED, urgency=low
+ -- Alex Williams <license@unscramble.jp>  Tue, 06 May 2014 00:00:00 +0000
+
+nodejs (0.10.26-1) UNRELEASED; urgency=low
 
   2014.02.18, Version 0.10.26 (Stable), cc56c6
 
@@ -42,6 +46,8 @@ nodejs (0.10.26-1) UNRELEASED, urgency=low
   * node: do not close stdio implicitly (Fedor Indutny)
   * zlib: avoid assertion in close (Fedor Indutny)
 
+ -- Alex Williams <license@unscramble.jp>  Mon, 05 May 2014 00:01:00 +0000
+
 nodejs (0.10.25-1) UNRELEASED; urgency=low
 
   2014.01.23, Version 0.10.25 (Stable)
@@ -55,6 +61,8 @@ nodejs (0.10.25-1) UNRELEASED; urgency=low
   * src: OnFatalError handler must abort() (Timothy J Fontaine)
   * stream: writes may return false but forget to emit drain (Yang Tianyang)
 
+ -- Alex Williams <license@unscramble.jp>  Sun, 04 May 2014 00:01:00 +0000
+
   2013.12.18, Version 0.10.24 (Stable), b7fd6bc899ccb629d790c47aee06aba87e535c41
 
   * uv: Upgrade to v0.10.21
@@ -63,6 +71,8 @@ nodejs (0.10.25-1) UNRELEASED; urgency=low
   * build: unix install node and dep library headers (Timothy J Fontaine)
   * cluster, v8: fix --logfile=%p.log (Ben Noordhuis)
   * module: only cache package main (Wyatt Preul)
+
+ -- Alex Williams <license@unscramble.jp>  Sat, 03 May 2014 00:01:00 +0000
 
   2013.12.12, Version 0.10.23 (Stable), 0462bc23564e7e950a70ae4577a840b04db6c7c6
 
