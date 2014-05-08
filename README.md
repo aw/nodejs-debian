@@ -3,7 +3,7 @@
 This repository will allow you to build your own .deb package of node.js.
 
 Obviously, you need to run this on a debian server. It has only been tested on
-Debian 7.1.
+Debian 6.0.9 and 7.1.
 
 ## Version
 
