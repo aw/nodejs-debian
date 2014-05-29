@@ -2,8 +2,12 @@
 
 This repository will allow you to build your own .deb package of node.js.
 
-Obviously, you need to run this on a debian server. It has only been tested on
-Debian 6.0.9 and 7.1.
+Obviously, you need to run this on a debian server.
+
+Tested on:
+
+  * Debian 7.5
+  * Debian 6.0.9
 
 ## Version
 
@@ -13,7 +17,7 @@ Current version: 0.10.28
 
 * bin/ - contains the tool to create the .deb package
 * debian/ - contains some files for building a .deb package "The Debian Way™"
-* node.git/ - an empty directly, which is actually a git submodule that you pull
+* node.git/ - an empty directory, which is actually a git submodule that you pull
 
 ## How it works
 
@@ -29,6 +33,12 @@ install plenty.
 Once the build is complete, feel-free to remove all the junk files 
 `debuild` left behind. Some of those files have interesting information 
 though, such as the *.dsc file.
+
+## Setup
+
+Install the debian package building prerequesites:
+
+`apt-get install build-essential git-core libssl-dev debuild devscripts`
 
 ## Usage
 
@@ -63,7 +73,7 @@ output of the .build file so I can see what's the error message.
 
 # Disclaimer
 
-This repository does NOT contain node.js or any copyrighted source code.
+This repository does NOT contain node.js.
 It simply contains some tools and a custom debian/ directory structure 
 for generating a nice little deployable debian package containing a compiled
 node.js based on the version you want.
