@@ -6,6 +6,6 @@ override_dh_auto_install:
 	$(MAKE) DESTDIR=$$(pwd)/debian/nodejs prefix=/usr install
 
 override_dh_auto_configure:
-	./configure --prefix=/usr --shared-openssl --shared-zlib --shared-http-parser --shared-cares
+	./configure --prefix=/usr --shared-openssl --shared-zlib --shared-cares
 
 override_dh_auto_test:
