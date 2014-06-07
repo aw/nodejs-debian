@@ -9,6 +9,10 @@ Tested on:
   * Debian 7.5
   * Debian 6.0.9
 
+## Changes
+
+* June 7, 2014 - We're now building node.js using shared libs instead of relying on Node's included libs.
+
 ## Version
 
 Current version: 0.10.28
@@ -38,7 +42,7 @@ though, such as the *.dsc file.
 
 Install the debian package building prerequesites:
 
-`apt-get install build-essential git-core libssl-dev debuild devscripts`
+`apt-get install build-essential git-core libssl-dev pkg-config libc-ares-dev zlib1g-dev debuild devscripts`
 
 ## Usage
 
