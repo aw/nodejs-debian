@@ -1,3 +1,25 @@
+nodejs (0.10.29-1) UNRELEASED; urgency=low
+
+  2014.06.05, Version 0.10.29 (Stable)
+
+  * openssl: to 1.0.1h (CVE-2014-0224)
+  * npm: upgrade to 1.4.14
+  * utf8: Prevent Node from sending invalid UTF-8 (Felix Geisendörfer)
+    - *NOTE* this introduces a breaking change, previously you could construct
+      invalid UTF-8 and invoke an error in a client that was expecting valid
+      UTF-8, now unmatched surrogate pairs are replaced with the unknown UTF-8
+      character. To restore the old functionality simply have NODE_INVALID_UTF8
+      environment variable set.
+  * child_process: do not set args before throwing (Greg Sabia Tucker)
+  * child_process: spawn() does not throw TypeError (Greg Sabia Tucker)
+  * constants: export O_NONBLOCK (Fedor Indutny)
+  * crypto: improve memory usage (Alexis Campailla)
+  * fs: close file if fstat() fails in readFile() (cjihrig)
+  * lib: name EventEmitter prototype methods (Ben Noordhuis)
+  * tls: fix performance issue (Alexis Campailla)
+
+ -- Alex Williams <license@unscramble.jp>  Sat, 18 Jun 2014 03:00:00 +0000
+
 nodejs (0.10.28-2) UNRELEASED; urgency=low
 
   2014.06.07, Version 0.10.28 (Stable)
