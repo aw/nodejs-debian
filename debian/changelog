@@ -1,3 +1,14 @@
+nodejs (0.10.33-1) UNRELEASED; urgency=low
+
+  2014.10.24, Version 0.10.33 (Stable)
+
+    * openssl: Update to 1.0.1j (Addressing multiple CVEs)
+    * uv: Update to v0.10.29
+    * child_process: properly support optional args (cjihrig)
+    * crypto: Disable autonegotiation for SSLv2/3 by default (Fedor Indutny, Timothy J Fontaine, Alexis Campailla)
+
+ -- Alex Williams <license@unscramble.jp>  Wed, 24 Oct 2014 00:00:00 +0000
+
 nodejs (0.10.32-1) UNRELEASED; urgency=low
 
   2014.09.17, Version 0.10.32 (Stable)
