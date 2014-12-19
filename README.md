@@ -6,7 +6,7 @@ Obviously, you need to run this on a debian server.
 
 Tested on:
 
-  * Debian 7.5
+  * Debian 7.7
   * Debian 6.0.9
 
 ## Changes
@@ -15,7 +15,7 @@ Tested on:
 
 ## Version
 
-Current version: 0.10.33
+Current version: 0.10.34
 
 ## Directory structure
 

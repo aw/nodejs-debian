@@ -1,3 +1,20 @@
+nodejs (0.10.34-1) UNRELEASED; urgency=low
+
+  2014.12.17, Version 0.10.34 (Stable)
+
+    * uv: update to v0.10.30
+    * zlib: upgrade to v1.2.8
+    * child_process: check execFile args is an array (Sam Roberts)
+    * child_process: check fork args is an array (Sam Roberts)
+    * crypto: update root certificates (Ben Noordhuis)
+    * domains: fix issues with abort on uncaught (Julien Gilli)
+    * timers: Avoid linear scan in _unrefActive. (Julien Gilli)
+    * timers: fix unref() memory leak (Trevor Norris)
+    * v8: add api for aborting on uncaught exception (Julien Gilli)
+    * debugger: fix when using "use strict" (Julien Gilli)
+
+ -- Alex Williams <license@unscramble.jp>  Wed, 19 Dec 2014 00:07:00 +0000
+
 nodejs (0.10.33-1) UNRELEASED; urgency=low
 
   2014.10.24, Version 0.10.33 (Stable)
