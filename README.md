@@ -42,7 +42,7 @@ though, such as the *.dsc file.
 
 Install the debian package building prerequesites:
 
-`apt-get install build-essential git-core libssl-dev pkg-config libc-ares-dev zlib1g-dev debuild devscripts`
+`apt-get install build-essential git-core libssl-dev pkg-config libc-ares-dev zlib1g-dev devscripts`
 
 ## Usage
 
