@@ -1,3 +1,13 @@
+nodejs (0.10.36-1) UNRELEASED; urgency=low
+
+  2015.01.26, Version 0.10.36 (Stable)
+
+    * openssl: update to 1.0.1l
+    * v8: Fix debugger and strict mode regression (Julien Gilli)
+    * v8: don't busy loop in cpu profiler thread (Ben Noordhuis)
+
+ -- Alex Williams <license@unscramble.jp>  Wed, 28 Jan 2015 17:50:00 +0000
+
 nodejs (0.10.35-1) UNRELEASED; urgency=low
 
   2014.12.22, Version 0.10.35 (Stable)
