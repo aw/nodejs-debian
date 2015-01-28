@@ -1,3 +1,13 @@
+nodejs (0.10.35-1) UNRELEASED; urgency=low
+
+  2014.12.22, Version 0.10.35 (Stable)
+
+    * tls: re-add 1024-bit SSL certs removed by f9456a2 (Chris Dickinson)
+    * timers: don't close interval timers when unrefd (Julien Gilli)
+    * timers: don't mutate unref list while iterating it (Julien Gilli)
+
+ -- Alex Williams <license@unscramble.jp>  Wed, 28 Jan 2015 17:30:00 +0000
+
 nodejs (0.10.34-1) UNRELEASED; urgency=low
 
   2014.12.17, Version 0.10.34 (Stable)
