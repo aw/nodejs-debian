@@ -1,3 +1,15 @@
+nodejs (0.10.38-1) UNRELEASED; urgency=low
+
+  * openssl: upgrade to 1.0.1m (Addressing multiple CVEs)
+  * uv: update to 0.10.36 (CVE-2015-0278)
+  * domains: fix stack clearing after error handled (Jonas Dohse)
+  * buffer: reword Buffer.concat error message (Chris Dickinson)
+  * console: allow Object.prototype fields as labels (Julien Gilli)
+  * V8: log version in profiler log file (Ben Noordhuis)
+  * http: fix performance regression for GET requests (Florin-Cristian Gavrila)
+
+ -- Alex Williams <license@unscramble.jp>  Wed, 25 Mar 2015 17:50:00 +0000
+
 nodejs (0.10.36-1) UNRELEASED; urgency=low
 
   2015.01.26, Version 0.10.36 (Stable)
