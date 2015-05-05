@@ -11,11 +11,13 @@ Tested on:
 
 ## Changes
 
+* May 5, 2015 - We've added support for v0.12.x builds, but we'll continue with v0.10.x as needed.
+
 * June 7, 2014 - We're now building node.js using shared libs instead of relying on Node's included libs.
 
 ## Version
 
-Current version: 0.10.38
+Current version: 0.12.0
 
 ## Directory structure
 
