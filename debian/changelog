@@ -1,3 +1,9 @@
+nodejs (0.12.1-1) UNRELEASED; urgency=low
+
+  * openssl: upgrade to 1.0.1m (Addressing multiple CVES)
+
+ -- Alex Williams <license@unscramble.jp>  Mon, 23 Mar 2015 00:01:00 +0000
+
 nodejs (0.12.0-1) UNRELEASED; urgency=low
 
   * npm: Upgrade to 2.5.1

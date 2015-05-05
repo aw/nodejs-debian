@@ -2,7 +2,7 @@
 #
 # Script to automate the build of a Node.JS debian package
 #
-# Copyright (c) 2013 Alex Williams, Unscramble <license@unscramble.jp>
+# Copyright (c) 2013-2015 Alex Williams, Unscramble <license@unscramble.jp>
 #
 # License: MIT
 
