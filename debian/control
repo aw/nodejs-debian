@@ -3,7 +3,7 @@ Maintainer: Alex Williams <license@unscramble.jp>
 Section: misc
 Priority: optional
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 8), build-essential, libssl-dev, pkg-config, libc-ares-dev, zlib1g-dev
+Build-Depends: debhelper (>= 8), build-essential, libssl-dev, pkg-config, zlib1g-dev
 
 Package: nodejs
 Architecture: any
