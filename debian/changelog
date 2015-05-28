@@ -1,3 +1,11 @@
+nodejs (0.12.4-1) UNRELEASED; urgency=low
+
+  * npm: upgrade to 2.10.1
+  * V8: revert v8 Array.prototype.values() removal (cjihrig)
+  * win: bring back xp/2k3 support (Bert Belder)
+
+ -- Alex Williams <license@unscramble.jp>  Fri, 22 May 2015 00:01:00 +0000
+
 nodejs (0.12.3-1) UNRELEASED; urgency=low
 
   * V8: update to 3.28.71.19
