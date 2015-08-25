@@ -17,7 +17,7 @@ Tested on:
 
 ## Version
 
-Current version: 0.12.4
+Current version: 0.12.7
 
 ## Directory structure
 
