@@ -1,0 +1,6 @@
+language: bash
+sudo: false
+cache: apt
+
+script:
+  - cd ${TRAVIS_BUILD_DIR} && bin/make-nodejs-deb.sh ${TRAVIS_TAG}
